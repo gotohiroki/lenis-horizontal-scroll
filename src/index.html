@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    {{> head}}
+    <link rel="stylesheet" href="{{path}}assets/scss/style.scss" />
+  </head>
+
+  <body id="{{page}}">
+    <div class="l-wrapper">
+      {{> header}}
+
+      <main class="l-container">
+        
+        <!-- <div class="p-home__title">
+          <h1 class="p-home__title__h1">6142</h1>
+        </div> -->
+
+        <section class="p-home-image">
+          <ul class="p-home-image__list">
+              <li class="p-home-image__item">
+                <picture>
+                  <img src="{{path}}assets/images/top/sample-01.webp" width="1730" height="1066" alt="" decoding="async">
+                </picture>
+              </li>
+              <li class="p-home-image__item">
+                <picture>
+                  <img src="{{path}}assets/images/top/sample-02.webp" width="1730" height="1066" alt="" decoding="async">
+                </picture>
+              </li>
+              <li class="p-home-image__item">
+                <picture>
+                  <img src="{{path}}assets/images/top/sample-03.webp" width="1730" height="1066" alt="" decoding="async">
+                </picture>
+              </li>
+              <li class="p-home-image__item">
+                <picture>
+                  <img src="{{path}}assets/images/top/sample-04.webp" width="1730" height="1066" alt="" decoding="async">
+                </picture>
+              </li>
+          </ul>
+        </section>
+
+        <div class="p-home-about">
+          <div class="p-home-about__inner">
+            <p>モーダルが開きました！</p>
+            <button class="js-modal-close">モーダルを閉じる</button>
+          </div>
+        </div>
+      </main>
+      {{> footer}}
+    </div>
+
+    <script type="module" src="{{path}}assets/js/main.js"></script>
+  </body>
+</html>

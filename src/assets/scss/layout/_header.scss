@@ -1,0 +1,22 @@
+@use "../global/" as g;
+
+.l-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 4rem;
+  z-index: 100;
+}
+
+.l-header__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.js-modal {
+  align-self: flex-end;
+  cursor: pointer;
+  display: block;
+}
